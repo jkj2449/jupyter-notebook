@@ -66,7 +66,7 @@ c.NotebookApp.keyfile = u'/home/ubuntu/ssl/cert.key'
 #### 7. jupyter-notebook 서비스 등록
 ```
 sudo jupyter-notebook --allow-root (주피터 노트북 루트 권한으로 실행)
-ctrl+z 종료
+ctrl+c 종료
 which jupyter-notebook (경로 확인)
 
 sudo vim /etc/systemd/system/jupyter.service
