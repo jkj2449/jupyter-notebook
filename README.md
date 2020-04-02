@@ -36,7 +36,7 @@ c.NotebookApp.notebook_dir = '/' (디렉토리 설정)
 #### 4. jupyter-notebook 실행
 ```
 sudo jupyter-notebook --allow-root (주피터 노트북 루트 권한으로 실행)
-ctrl+c로 종료 후 bg
+ctrl+z로 종료 후 bg
 disown -h /ssh (연결을 끊어도 해당 프로세스가 종료되지 않기 위해 소유권 포기)
 
 ssl 설정을 위해 종료
